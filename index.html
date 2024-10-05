@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeceras Responsivas</title>
+    <!-- Enlace a Bootstrap en local -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Cabecera visible solo en pantallas pequeñas -->
+    <h1 class="d-block d-sm-none">Cabecera en formato sm</h1>
+
+    <!-- Cabecera visible solo en pantallas medianas -->
+    <h1 class="d-none d-sm-block d-md-none">Cabecera en formato md</h1>
+
+    <!-- Cabecera visible solo en pantallas grandes -->
+    <h1 class="d-none d-md-block d-lg-none">Cabecera en formato lg</h1>
+
+    <!-- Cabecera visible solo en pantallas extra grandes -->
+    <h1 class="d-none d-lg-block d-xl-none">Cabecera en formato xl</h1>
+
+    <!-- Cabecera visible solo en pantallas extra-extra grandes -->
+    <h1 class="d-none d-xl-block d-xxl-none">Cabecera en formato xxl</h1>
+
+    <!-- Cabecera visible solo en pantallas muy grandes (xxl o más) -->
+    <h1 class="d-none d-xxl-block">Cabecera para pantallas mayores a xxl</h1>
+</div>
+
+<!-- Bootstrap JS en local -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
